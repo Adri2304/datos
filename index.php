@@ -7,4 +7,4 @@ header('Allow: GET, POST, OPTIONS, PUT, DELETE');
 if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     die('Metodo no permitido');
 }
-    require "../src/app/app.php";
+    require "./src/app/app.php";
